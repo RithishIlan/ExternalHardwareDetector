@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="connected_device">#4CAF50</color> <!-- Green for connected devices -->
+    <color name="paired_device">#F1F1F1</color>   <!-- Light gray for paired devices -->
+</resources>

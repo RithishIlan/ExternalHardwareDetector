@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ExternalHardwareDetector</string>
+    <string name="bluetooth_devices">Bluetooth Devices</string>
+
+</resources>

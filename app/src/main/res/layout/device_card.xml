@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/deviceCardView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="12dp"
+    app:cardElevation="6dp"
+    android:padding="8dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="12dp"
+        android:background="?android:attr/selectableItemBackground"
+    android:clickable="true"
+    android:focusable="true">
+
+    <!-- Device Name -->
+    <TextView
+        android:id="@+id/deviceName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Device Name"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:textColor="@android:color/black"
+        android:paddingBottom="4dp"/>
+
+    <!-- Device MAC Address -->
+    <TextView
+        android:id="@+id/deviceAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MAC Address"
+        android:textSize="14sp"
+        android:textColor="@android:color/darker_gray"
+        android:paddingBottom="4dp"/>
+
+    <!-- Device Status -->
+    <TextView
+        android:id="@+id/deviceStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Status"
+        android:textSize="14sp"
+        android:textColor="@android:color/holo_green_dark"
+        android:paddingBottom="4dp"/>
+
+    <!-- Connected Time -->
+    <TextView
+        android:id="@+id/deviceConnectedTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Connected Time"
+        android:textSize="14sp"
+        android:textColor="@android:color/black"
+        android:paddingBottom="4dp"/>
+
+    <!-- Disconnected Time -->
+    <TextView
+        android:id="@+id/deviceDisconnectedTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Disconnected Time"
+        android:textSize="14sp"
+        android:textColor="@android:color/black"/>
+
+</LinearLayout>
+    </androidx.cardview.widget.CardView>
